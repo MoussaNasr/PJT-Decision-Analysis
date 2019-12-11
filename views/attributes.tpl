@@ -390,6 +390,7 @@ $(function() {
 			method = "CE_Variable_Prob";
 		} else if ($("select option:selected").text() == "Gambling Method") {
 			method = "GM";
+		}
 
 		var mode = ($('input[name=mode]').is(':checked') ? "Reversed" : "Normal");
 		
